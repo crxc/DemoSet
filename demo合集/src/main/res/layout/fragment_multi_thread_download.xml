@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative_layout">
+    <EditText
+        android:id="@+id/et_url"
+        android:text="http://192.168.154.15:8080/abc.pdf"
+        android:inputType="textUri"
+        android:hint="@string/download_hint"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:text="3"
+        android:layout_toRightOf="@+id/et_url"
+        android:id="@+id/et_thread_num"
+        android:inputType="number"
+        android:hint="@string/download_thread_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"/>
+    <Button
+        android:id="@+id/btn_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/down_pause"
+        android:layout_below="@+id/et_url"/>
+</RelativeLayout>

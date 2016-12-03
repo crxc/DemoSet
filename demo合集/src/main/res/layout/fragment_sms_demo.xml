@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_alignParentStart="true"
+        android:id="@+id/edt_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="@string/contact_hint"/>
+    <Button
+        android:id="@+id/btn_select_contact"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/edt_contact"
+        android:layout_marginBottom="10dp"
+        android:text="@string/add"/>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btn_send"
+        android:text="@string/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:layout_above="@id/btn_send"
+        android:id="@+id/btn_insert_template"
+        android:text="@string/insert_sms_template"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/edt_sms_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textMultiLine"
+        android:gravity="start"
+        android:layout_above="@id/btn_insert_template"
+        android:layout_below="@id/edt_contact"/>
+</RelativeLayout>
