@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Demo合集</string>
+    <string name="drawer_open">open drawer</string>
+    <string name="drawer_close">close drawer</string>
+    <string-array name="sms_temp">
+        <item>昨夜西风凋碧树 独上高楼 望尽天涯路。</item>
+        <item>非淡泊无以明志，非宁静无以致远</item>
+        <item>静以修身，俭以养德</item>
+        <item>非学无以广才，非志无以成学</item>
+        <item>不先为备，何以待敌</item>
+        <item>攻无不克，战无不胜</item>
+        <item>先为不可胜之势，然后待敌之可胜</item>
+        <item>不可胜在己，可胜在敌</item>
+        <item>you are not alone</item>
+        <item>I am here with you</item>
+    </string-array>
+
+
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sent_notification">发送通知</string>
+    <string name="close_notification">关闭广播</string>
+    <string name="download_hint">请输入下载地址</string>
+    <string name="download_thread_hint">线程数</string>
+    <string name="down_pause">下载/暂停</string>
+    <string name="contact_hint">请输入联系人号码</string>
+    <string name="add">+</string>
+    <string name="send">发送</string>
+    <string name="insert_sms_template">插入短信模板</string>
+    <string name="sms_monitor">短信监听服务</string>
+    <string name="app_state_monitor">应用卸载安装监听</string>
+    <string name="sd_state_monitor">sd卡状态监听</string>
+    <string name="send_broadcast">发送自定义广播</string>
+    <string name="receive_custom_broadcast">接收自定义广播</string>
+    <string name="unlock_screen_broadcast">解锁屏广播</string>
+    <string name="beautify">美化</string>
+    <string name="monitor_heart_rate">监测心率</string>
+    <string name="stop">停止</string>
+</resources>
